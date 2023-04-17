@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Age calculator app</title>
+</head>
+<body>
+  <div class="box">
+      <form>
+      <div class="inputtext">
+        <div class="column">
+        <label class="txt" for="DAY">
+            DAY
+      </label>
+      <input id="DAY" type="number">
+      <small></small>
+    </div>
+    <div class="column">
+      <label class="txt" for="MONTH">
+            MONTH
+      </label>
+      <input id="MONTH" type="number">
+      <small></small>
+    </div>
+    <div class="column">
+      <label class="txt" for="YEAR">
+            YEAR
+      </label>
+      <input id="YEAR" type="number">
+      <small></small>
+    </div>
+    <button title="Sprawdz" class="sbt" type="submit"><img alt="icon" class="pht" src="icon-arrow.svg"></button>
+    </div>
+    </form>
+    <div class="age" id="age">
+      <h1><span id="YY">--</span>years</h1>
+      <h1><span id="MM">--</span>months</h1>
+      <h1><span id="DD">--</span>days</h1>
+    </div>
+  </div>
+  <span>Made by salexin</span>
+  <script src="app.js"></script>
+</body>
+</html>

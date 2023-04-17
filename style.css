@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap');
+body {
+    background-color: hsl(0, 0%, 94%);
+    font-family:'Poppins', sans-serif;
+    font-weight: 400;
+    border: none;
+}
+input[type=text]:focus{
+    outline: 1px solid hsl(259, 100%, 65%)
+  }
+
+.box {
+    background-color: white;
+    width: 50vw;
+    height: 75vh;
+    margin-left: 25vw;
+    margin-top: 12.5vh;
+    border-radius: 20px;
+    border-bottom-right-radius: 40%;
+
+}
+.inputtext {
+    width: 80%;
+    height: 200px;
+    margin-left: 5%;
+    display: flex;
+    gap: 35px;
+    border-bottom: 1px solid black;
+    font-weight: 800;
+
+}
+input {
+    height: 20px;
+    width: 100px;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid lightgray;
+    display: flex;
+}
+.txt {
+    margin-top: 50%;
+}
+.text {
+    color: hsl(0, 1%, 44%);
+    margin-top: 60px;
+}
+.text2 {
+    color: hsl(0, 1%, 44%);
+    margin-left: 25%;
+    margin-top: 60px;
+}
+.text3 {
+    color: hsl(0, 1%, 44%);
+    margin-left: 22.5%;
+    margin-top: 60px;
+}
+.sbt {
+    border-radius: 50%;
+    margin-left: 40%;
+    bottom: 64vh;
+    padding: 1rem;
+    background-color: hsl(259, 100%, 65%);
+    border: none;
+    position: absolute;
+    cursor:grab;
+}
+.age {
+    margin-left: 5%;
+    border-bottom-right-radius: 30px ;
+    color: hsl(0, 0%, 8%);
+}
+.age h1{
+    font-size: 5rem;
+    font-weight: 800;
+    font-style: italic;
+    height: fit-content;
+}
+.age span {
+    color: hsl(259, 100%, 65%);
+}
+.small {
+    color:  red;
+}
+.column {
+    display: flex;
+    flex-direction: column ;
+}
+@media screen and (max-width: 375px) {
+    .box {
+        width:90vw;
+        height: 75vh;
+        margin-left: 2.5vw;
+        margin-top: 12.5vh;
+        border-radius: 20px;
+        border-bottom-right-radius: 30%;
+    }
+    .age h1{
+        font-size: 4rem;
+        font-weight: 800;
+        font-style: italic;
+        height: fit-content;
+    }
+    .age span {
+        color: hsl(259, 100%, 65%);
+    }
+    input {
+        height: 8px;
+        width: 30px;
+        padding: 20px;
+        border-radius: 10px;
+        border: 1px solid lightgray;
+        display: flex;
+    }
+    .sbt {
+        border-radius: 50%;
+        margin-left: 30%;
+        bottom: 64vh;
+        padding: 0.5rem;
+        background-color: hsl(259, 100%, 65%);
+        border: none;
+        position: absolute;
+        cursor:grab;
+    }
+    .inputtext {
+        width: 80%;
+        height: 175px;
+        margin-left: 5%;
+        display: flex;
+        gap: 35px;
+        border-bottom: 1px solid black;
+        font-weight: 800;
+    
+    }
+    .txt {
+        margin-top: 25%;
+    }
+}
