@@ -51,7 +51,7 @@ function handleSubmit(e) {
       MONTH = MONTH - 1;
     }
     if (monthInp.value > MONTH) {
-      MONTH = MONTH + 10;
+      MONTH = MONTH + 12;
       YEAR = YEAR - 1;
     }
 
